@@ -12,7 +12,7 @@ public class CalcApp {
 		while( true ) {
 			/*  코드를 완성 합니다 */
 
-			System.out.print(">>" );
+			System.out.print(">> " );
 			String expression = scanner.nextLine();
 			
 			if( expression.equals( "quit" ) ) {
@@ -28,7 +28,7 @@ public class CalcApp {
 					
 					add.setValue( lValue, rValue );
 					int result = add.calculate();
-					System.out.println( ">>" + result );
+					System.out.println( ">> " + result );
 					
 					break;
 				}
@@ -37,7 +37,7 @@ public class CalcApp {
 					
 					sub.setValue( lValue, rValue );
 					int result = sub.calculate();
-					System.out.println( ">>" + result );
+					System.out.println( ">> " + result );
 					
 					break;
 				}				
@@ -46,7 +46,7 @@ public class CalcApp {
 					
 					mul.setValue( lValue, rValue );
 					int result = mul.calculate();
-					System.out.println( ">>" + result );
+					System.out.println( ">> " + result );
 					
 					break;
 				}				
@@ -55,12 +55,12 @@ public class CalcApp {
 					
 					div.setValue( lValue, rValue );
 					int result = div.calculate();
-					System.out.println( ">>" + result );
+					System.out.println( ">> " + result );
 					
 					break;
 				}
 				default : {
-					System.out.println( ">>알 수 없는 연산 입니다." );
+					System.out.println( ">> 알 수 없는 연산 입니다." );
 					break;
 				}
 			}
