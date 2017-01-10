@@ -58,7 +58,7 @@ public class CalcApp {
 					break;
 				}
 				default : {
-					System.out.println( ">>알수없는 연산입니다." );
+					System.out.println( ">>알 수 없는 연산 입니다." );
 					break;
 				}
 			}
