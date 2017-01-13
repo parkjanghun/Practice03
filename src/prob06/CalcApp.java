@@ -67,5 +67,7 @@ public class CalcApp {
 		}
 		
 		scanner.close();
+
 	}
+
 }
